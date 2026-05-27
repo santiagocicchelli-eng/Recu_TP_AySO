@@ -1,1 +1,1 @@
-mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+mkdir -p datos/{textos/{libros,revistas},videos/{peliculas,series}}
