@@ -1,0 +1,1080 @@
+pwd
+ls
+man ls
+ls -l
+cd repogit/
+ls
+ls -l
+cd ..
+ls
+man ls
+ls -a
+ls -a -l
+ls -al
+ls -la
+ls la
+pwd
+cd /
+pwd
+ls
+ls -la
+cd etc/
+ls -l
+cd ..
+ls
+cd dev/
+ls
+cd /
+ls
+cd etc/
+ls -la
+man cat
+cat passwd
+tac passwd
+pwd
+man pwd
+ls
+ls gss
+ls -l gss
+ls -la /home/vagrant/
+cd ..
+pwd
+cd ..
+pwd
+cd $home
+pwd
+cd ..
+exit
+vagrant status
+exit
+cd /home
+cd
+cat << POP
+linea1
+linea2
+linea3
+linea4
+POP
+
+ls -l
+cat << FIN > ejemplo.txt
+hola
+como
+te
+va
+sebas
+FIN
+
+LS -L
+ls -l
+cat << FIN > ejemplo2.txt
+me gusta
+tomar
+mucho helado
+FIN
+
+ls -l
+cat ejemplo2.txt
+nano ejemplo2.txt
+nano
+cat << FIN >> ejemplo2.txt
+estoy 
+aprendiendo
+a
+manejar
+fin
+FIN
+
+cat ejemplo2.txt
+cat << FIN > ejemplo2.txt
+me gusta
+tomar
+mucho helado
+FIN
+
+cat ejemplo2.txt
+man bc
+bc << 4*4
+man bc
+bc
+vagrant status
+man bc
+bc <<<5*5
+bc <<< 4*4
+bc <<< 10%2
+bc <<<5/7
+echo "hola" | hola
+echo "hola" 
+man wc
+echo "hola" | wc
+cat ejemplo2.txt | wc
+cat << FIN >> ejemplo2.txt 
+hola
+como
+estas
+FIN
+
+cat ejemplo2.txt | wc
+echo "sol" | wc 
+echo "camion" | wc 
+echo ejemplo2.txt | wc
+cat ejemplo2.txt
+cat ejemplo2.txt | grep hola
+cat ejemplo2.txt | grep pepe
+cat ejemplo.txt 
+cat ejemplo.txt | grep como
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name" | tail -1
+cat /proc/cpuinfo | grep "model name" | head -1
+ls -l
+cat << FIN > ejemplo2.txt
+me 
+gusta 
+el futbol
+FIN
+
+cat << FIN > ejemplo3.txt
+hola
+todo
+bien
+FIN
+
+ls -l
+mkdir documentos 
+ls -l
+mv ejemplo3.txt documentos/
+ls -l
+cd documentos/
+ls
+cd..
+cd ..
+cd documentos/
+cp ejemplo3.txt ..
+ls -l
+cd
+ls -l
+cd documentos/
+ls
+rm -i ejemplo3.txt
+ls
+cd
+ls -l
+man rm
+rm -ri documentos/
+ls -l
+mkdir documentos
+ls -l
+mv ejemplo3.txt documentos/
+ls -l
+cd documentos/
+ls
+cd ..
+cd documentos/
+cp ejemplo3.txt
+cp ejemplo3.txt ..
+ls
+cd
+ls
+ls -l
+cd documentos/
+rm -i ejemplo3txt
+rm -i ejemplo3.txt
+ls
+cd
+ls -l
+pwd
+history
+ls
+ls -l
+history
+ls -l
+history > historial.txt
+cat historial.txt
+ls -l
+mv historial.txt carpeta_compartida
+vim
+vim ejemplo3.txt
+cat ejemplo3.txt
+vim ejemplo3.txt
+cat ejemplo3.txt
+ls -l
+rm -i ejemplo3.txt
+ejemplo2.txt
+rm -i ejemplo2.txt
+ls -l
+mkdir padre/
+cd padre/
+ls
+mkdir hijo1
+cd
+rm padre/
+rm -r padre/
+ls -l
+mkdir -p familia/{papa,mama}/hijo{1..5}
+ls -l
+cd familia/
+ls -l
+papa/
+cd papa/
+ls -l
+cd ..
+cd mama/
+ls -l
+ls
+cd ..
+cd papa/
+ls
+cd
+cd familia/
+cd papa/
+sudosnap install tree
+sudo snap install tree
+cd
+ls -l
+tree familia
+rm -r familia
+mkdir -p familia/{{papa,mama}/hijo{1..5},mama/perro}
+tree familia
+ls -l
+cd documentos/
+cd ejemplo/
+cd
+cd ejemplo/
+cd ejemplo.txt/
+cd ejemplo.txt
+ls -l
+cat <<fin>> ejemplo.txt
+hola
+buenas
+tardes
+fin
+
+vim ejemlo.txt
+cat <<fin> ejemplo.txt
+hola
+buenas
+tardes
+fin
+
+vim ejemplo.txt
+exit
+ls -l
+ped
+pwd
+cat etc/passwd
+cat /etc/passwd
+sudo userspasswd sebastian
+sudo useradd sebastian
+ls -l
+cd home
+cd home/
+cd /home
+ls
+cd /vagrant
+cd vagrant/
+ls -l
+pwd
+cd /user
+cd user/
+cd users/
+cd /home/users/
+cd home/users
+cd home/users/
+cat /etc/passwd
+ls -l /home/
+sebastian
+sebastian -a
+su sebastian 
+sudo passwd sebastian
+whoami
+id
+sudo usermod -s /bin/bash/ sebastian
+cat /etc/passwd
+su sebastian
+cat /etc/passwd
+su sebastian
+sebas
+su sebas
+su sebastian
+sudo passwd sebastian
+su sebastian
+sudo usermod -s /bin/bash/ sebastian
+sudo usermod -s /bin/sh/ sebastian
+sudo usermod -s /bin/bash/ sebastian
+sudo usermod -s /bin/bash sebastian
+cat /etc/passwd
+ps -ef
+kill -9 3869
+su sebastian
+su sebastian
+sudo userdel sebastian
+cat /etc/passwd
+sudo useradd -m -s /bin/bash sebastian
+cat /etc/passwd
+ls -l /home
+sudo passwd sebastian
+sudo usermod -c "sebastian cicchelli" sebastian
+cat /etc/passwd
+sudo usermod -s "sebastian cicchelli" sebastian
+sudo usermod -c "sebastian cicchelli" sebastian
+su sebastian 
+cat /etc/passwd
+su sebastian -a
+sebastian -a
+su sebastian
+cd
+cd ..
+su sebastian
+cd
+sudo usermod -c "Sebastian Cicchelli" sebastian
+su sebastian
+sudo userdel sebastian
+kill -9 4444
+sudo kill -9 4444
+su sebastian
+sudo kill -9 4444
+sudo userdel sebastian
+ls -l
+cd home
+cd /home
+ls -l
+rm -r sebastian
+ls -l
+rm -r sebastian
+sudo rm -r sebastian
+ls -l
+cd
+sudo useradd sebastian
+ls -l
+cd /home
+ls -l
+cd
+cat /etc/passwd
+su sebastian
+sudo passwd sebastian 
+sudo usermod -s /bin/bash sebastian
+sudo useradd -s /bin/bash -m persona1
+sudo useradd -s /bin/bash -m persona2
+sudo useradd -s /bin/bash -m persona3
+sudo userdel persona3
+sudo passwd persona1
+cat /etc/passwd
+sudo cat etc/shadow
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep persona1
+sudo cat /etc/shadow | grep persona1 |awk -F ':''{print$2}'
+sudo cat /etc/shadow | grep persona1 | awk -F ':' '{print$2}'
+sudo useradd -s /bin/bash -m -p "$(sudo cat /etc/shadow | grep persona1 | awk -F ':' '{print$2}')" persona3
+sudo useradd -s /bin/bash -m -p "$(sudo cat /etc/shadow | grep persona1 | awk -F ':' '{print$2}')" persona4
+cat /etc/passwd
+ls -l /home/
+cd
+cd persona4
+sudo /etc/shadow
+cat /etc/shadow
+sudo cat /etc/shadow
+cat /etc/group
+man groupadd
+sudo groupadd estudiantes
+cat /etc/group
+cat /etc/passwd
+sudo usermodd -G estudiantes persona2
+sudo usermod -G estudiantes persona2
+sudo usermod -G estudiantes persona3
+sudo usermod -G estudiantes persona4
+cat /etc/group
+ls -l
+cat ~/.bash_history
+cd
+cat ~/.bash_history
+sudo cat ~/.bash_history
+cd /home
+git log
+git config --global user.name "santiago-eng"
+git config --global user.email "santiagocicchelli@gmail.com"
+git log
+cd
+git config --global user.name "santiago-eng"
+git config --global user.email "santiagocicchelli@gmail.com"
+git log
+exit
+su persona4
+exit
+su persona4
+exit
+su persona4
+exit
+su sebastian
+exit
+su sebastian
+exit
+"ssh-keygen"
+cat $home/ssh/*.pub
+cat $home/.ssh/*.pub
+cat $HOME/.ssh/*.pub
+cd
+cd home
+cd /home
+mkdir repogit
+sudo mkdir repogit
+cd repgit
+cd repogit
+git clone <git@github.com:santiagocicchelli-eng/TP_AySO.git>
+git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+sudo git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+pwd
+ls -l
+ls
+git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+cd TP_AySO/
+git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+sudo git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+cd
+ls
+sudo git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+cd HOME/
+cd home
+cd /home
+cd /repogit
+cd repogit
+ls
+cd
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd home
+cd /home
+cd repogit
+git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+sudo git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+ls
+ls -la
+sudo git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+sudo git clone https://github.com/santiagocicchelli-eng/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i ubuntu /etc/passwd
+grep -i ubuntu/etc/passwd
+cd home
+/
+init
+cd /home
+cd /repogit
+cd repogit
+cd TP_AySO/
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+grep -i ubuntu /etc/passwd | awk -F ':' '{print $2}' > datos_usuario.txt
+pwd
+whoami
+cd /home
+cd repogit
+cd TP_AySO/
+whoami
+grep -i ubuntu /etc/passwd | awk -F ':' '{print $2}' > datos_usuario.txt
+sudo grep -i ubuntu /etc/passwd | awk -F ':' '{print $2}' > datos_usuario.txt
+grep -i ubuntu /etc/passwd | awk -F ':' '{print $2}' > datos_usuario.txt
+cat ls
+ls -l
+cat TP_Ayso
+cat tp_ayso
+d/home
+cat tp_ayso
+d
+cd
+exit
+d/home
+cd /home
+cd repogit
+cd TP_AySO/
+grep -i ubuntu /etc/passwd | awk -F ':' '{print $2}' > datos_usuario.txt
+cd
+cd $HOME/
+cd $HOME/repogit/
+git clone git@github.com:santiagocicchelli-eng/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+grep -i ubuntu /etc/passwd | awk -F ':' '{print $2}' > datos_usuario.txt
+whoami
+echo “Usuario=$(whoami)” >> datos_usuario.txt
+git add
+git init
+git add
+git add .
+git config --global user.email "santiagocicchelli@gmail.com"
+git config --global user.name "santiagocicchelli-eng"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+git push
+cpuinfo
+cat cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+git add info_pc.txt
+git commit -m "feat: AMD Ryzen 5 7520U with Radeon Graphics (2.80 GHz)"
+git push
+man sort
+grep -v "nologin" /etc/passwd | sort -t: -k7,7 | head -n 10 > "lista ordenada"
+cat "lista ordenada"
+git push
+ls
+git push 'lista ordenada'
+git push 
+grep
+cat lista ordenada
+cat 'lista ordenada'
+ls
+git add .
+git commit -m "ADD: Lista Ordenada"
+git push
+git commit -m "ADD: Listado de usuarios ordenada"
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+cat "lista ordenada"
+ls
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+grep -v "nologin" /etc/passwd | sort -t: -k7,7 | head -n 10 > "listado de usuarios ordenada"
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+pwd
+cat README.md
+cat << FIN >> README.md
+Alumno : Santiago
+cat << FIN >> README.md
+Alumno : Santiago Cicchelli
+
+cat README.md
+exit
+FIN
+
+cat << FIN >> README.md
+Alumno : Santiago Cicchelli
+Division : 116
+Turno : Mañana
+FIN
+
+cat README.md
+git add .
+git commit -m "docs: informacion del alumno"
+git push
+mkdir -p TP1/{{arquitectura,so}/clase{1..5},so/clase6}
+tree TP1
+git add .
+git commit -m "punto 7: estructura de directorios"
+cd
+ls 
+cd /home
+mkdir -p TP1/{{arquitectura,so}/clase{1..5},so/clase6}
+tree TP1
+ls -l
+cd 
+mkdir -p TP1/{{arquitectura,so}/clase{1..5},so/clase6}
+tree TP1
+echo 'mkdir -p TP1/{{arquitectura,so}/clase{1..5},so/clase6}' > script_dir.sh
+cat script_dir.sh 
+chmod +x script_dir.sh
+git add .
+cd /\$HOME/repogit/
+cd /$HOME/repogit/
+cd TP_AySO/
+ls -l
+chmod +x script_dir.sh
+cat script_dir.sh 
+echo 'mkdir -p TP1/{{arquitectura,so}/clase{1..5},so/clase6}' > script_dir.sh
+cat script_dir.sh 
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
+$HOME/.bash_history
+cp ../../.bash_history ./Historial_comandos_SantiagoCicchelli.txt
+history -a
+pwd
+git add .
+git commit "ADD:Historial de Comandos"
+git commit -m "ADD: Historial de Comandos"
+git push
+ext
+exit
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+source ~/.bashrc
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+source ~/.bashrc
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+source ~/.bashrc
+mkdir -p /datos/{{{textos,videos},textos/libros,revistas},videos/peliculas,series} 
+echo mkdir -p /datos/{{{textos,videos},textos/libros,revistas},videos/peliculas,series} 
+ls -l
+cd /UTN-FRA_SO_ Examenes
+cd /UTN-FRA_SO_Examenes
+cd UTN-FRA_SO_Examenes/
+ls
+ls -l
+cs
+cd
+cd /home
+mkdir -p /datos/{{{textos,videos},textos/libros,revistas},videos/peliculas,series} 
+mkdir -p datos/{{textos,videos},textos/libros,revistas,videos/peliculas,series} 
+sudo mkdir -p datos/{{textos,videos},textos/libros,revistas,videos/peliculas,series} 
+ls
+tree datos
+cd datos/
+ls -l
+sudo mkdir -p datos/{textos/{libros,revistas},videos/{peliculas,series}} 
+tree datos
+cd datos/
+ls -l
+sudo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}} 
+ls -l
+ls
+tree datos
+tree /datos/
+tree datos/
+tree /datos
+cd
+sudo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls
+tree datos
+cd Recu_TP_AySO
+cd Recu_TP_AySO/
+cd /Recu_TP_AySO
+cd /Recu_TP_AySO/
+ls
+cd /$HOME
+git clone https://github.com/santiagocicchelli-eng/Recu_TP_AySO.git
+cd Recu_TP_AySO/
+echo 'mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}' > Punto_A.sh
+tree /datos/
+tree datos
+sudo tree datos
+ls -l
+tree Punto_A.sh 
+cdPunto_A.sh 
+cd Punto_A.sh 
+cat Punto_A.sh
+cd
+pwd
+cd ..
+cd
+pwd
+cd home
+cd /home
+echo 'mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}' > Punto_A.sh
+sudo echo 'mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}' > Punto_A.sh
+cd Recu_TP_AySO/
+ls -l
+cd datos
+ls -l
+cd revistas/
+ls -l
+cd
+cd videos
+cd home/
+cd /home
+ls
+tree datos
+sudo tree datos
+rmkdir -r datos/
+rmdir revistas
+rmdir /revistas
+rmdir /revistas/
+rmdir revistas/
+ls -l
+ls 
+cd datos
+ls
+ls -l
+cd revistas
+ls
+rmdir revistas
+rmdir -r revistas
+rmdir -r /revistas
+cd
+cd datos
+ls -l
+cd Recu_TP_AySO/
+ls
+ls -l
+cd
+ls -l
+cd /home
+ls -l
+cd datos
+ls
+ls -l
+cd home
+cd /home
+cd datos
+cd home/
+cd /home
+ls 
+clear
+cd
+exit
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+sudo ./UTN-FRA_SO_Examenes/script_Precondicion.sh
+cd Recu_TP_AySO/
+cat README.MD
+ls -l
+cat << fin >> README.md 
+Alumno: Santiago Cicchelli
+Comision: 116
+Turno: Mañana 
+FIN
+fin
+
+cat << fin >> README.md 
+fin
+
+vim README.md 
+nano README.md 
+git add .
+git commit -m "docs: Datos de Alumno" 
+git push
+git config --global credential.helper cache
+cd /home
+cd Recu_TP_AySO/
+ls
+cd
+ls
+cd Recu_TP_AySO/
+ls
+mkdir -p datos/{{textos,videos}/
+sudo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls -l
+cd datos
+ls
+cd textos
+cd {textos
+ls
+ls -l
+sudo mkdir -p /datos/textos/{libros,revistas},videos/{peliculas,series}
+ls -l
+cd
+pwd
+cd Recu_TP_AySO/
+sudo mkdir -p /datos/textos/{libros,revistas},videos/{peliculas,series}
+ls -l
+cd datos
+ls -l
+rmdir -r datos
+rmdir -r /datos
+rmdir -r datos/
+rmdir datos/
+rmdir datos
+cd
+rmdir datos
+cd Recu_TP_AySO/
+rmdir datos
+rm -r datos
+ls
+sudo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls -l
+nano Punto_A.sh 
+chmod +x Punto_A.sh 
+tree /datos/
+tree datos
+sudo apt install tree
+tree datos
+tree /datos/
+cd
+sudo apt install tree
+tree /datos/
+cd Recu_TP_AySO/
+ls
+sudo Punto_A.sh
+Punto_A.sh
+cd home
+cd /home
+ls -l
+tree /datos/
+rm -r datos
+ls -l
+cd datos
+ls -l
+cd home
+cd
+cd /home
+rm -r /datos/
+ls -l
+rm -r /datos/
+y
+ls -l
+rm datos
+rm -r datos
+ls -l
+sudo rm -r datos
+ls -l
+cd
+cd Recu_TP_AySO/
+sudo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls -l
+cd home
+cd
+cd /home
+ls -l
+sudo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls -l
+sudo echo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls -l
+cd 
+ls -l
+cd Recu_TP_AySO/
+ls -l
+ls
+rm Punto_A.sh 
+ls
+sudo mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls
+ls -l
+mkdir -p /datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls -l
+tree datos
+mkdir -p datos/{textos/{libros,revistas},videos/{peliculas,series}}
+ls -l
+tree datos
+echo 'mkdir -p datos/{textos/{libros,revistas},videos/{peliculas,series}}' > Punto_A.sh
+ls
+git add .
+git commit -m "Punto_A: Estructura simetrica"
+git push
+nano Punto_A.sh 
+nano usuario.sh
+chmod +x usuario.sh
+git add .
+git commit -m "ADD: Creacion de script.sh"
+git push
+./usuario.sh 
+sudo usermod -s /bin/bash p1c1_2026_u1
+sudo chown -R p1c1_2026_u1:p1c1_2026_g1 /datos/
+sudo chmod -R 750 /datos/
+nano /etc/sudoers
+su p1c1_2026_u1@
+sudo chown -R p1c1_2026_u1:p1c1_2026_g1 /datos/
+sudo chmod -R 750 /datos/
+sudo -u p1c1_2026_u1 whoami > /datos/validar1.txt
+sudo su -u p1c1_2026_u1 whoami > /datos/validar1.txt
+sudo -u p1c1_2026_u1 bash -c 'whoami > /datos/validar1.txt'
+nano Punto_B.sh 
+chmod +x Punto_B.sh
+git add .
+git commit -m "ADD: Creacion Punto_B.sh"
+git push
+sudo groupadd p1c1_2026_Todos
+sudo useradd -m -g p1c1_2026_Todos p1c1_2026_u2
+sudo usermod -p $(sudo grep "p1c1_2026_u1:" /etc/shadow | cut -d: -f2) p1c1_2026_u2
+sudo usermod -aG p1c1_2026_Todos p1c1_2026_u1
+sudo chgrp -R p1c1_2026_Todos /datos/
+sudo chmod -R g+w /datos/
+sudo chmod o=x /datos/
+ls /datos
+sudo -u p1c1_2026_u2 bash -c 'id >> /datos/validar1.txt'
+sudo -u p1c1_2026_u1 cat /datos/validar1.txt
+sudo -u p1c1_2026_u2 cat /datos/validar1.txt
+cat /datos/validar1.txt
+ls -l
+ls -l /datos
+nano Punto_C.sh
+git add .
+git commit -m "ADD: Punto_C.sh"
+git push
+cd
+pwd
+mkdir -p ~/Ejercicio_D/{rx/{lote_{1..20},extras_{1..100}},tx/lote_{1..20}}
+tree Ejercicio_D/ --noreport | pr -T -s' ' -w 80 --column 4
+mkdir -p ~/Ejercicio_D/{rx/{lote_{1..20},extras_{1..100}},tx/lote_{1..20}}
+tree Ejercicio_D
+tree Ejercicio_D/ --noreport | pr -T -s' ' -w 80 --column 4
+nano Punto_D.sh
+git add .
+ls -l
+mv [Ejercicio_D] [Recu_TP_AySO]
+cd Recu_TP_AySO/
+ls -l
+cd
+git clone https://github.com/santiagocicchelli-eng/Recu_TP_AySO.git
+mv Ejercicio_D Recu_TP_AySO/
+cd Recu_TP_AySO/
+ls -l
+tree ~/Ejercicio_D/ --noreport | pr -T -s' ' -w 80 --column 4
+cd
+ls -l
+cd Recu_TP_AySO/
+mv Ejercicio_D home/
+ls -l
+mkdir -p ~/Ejercicio_D/{rx/{lote_{1..20},extras_{1..100}},tx/lote_{1..20}}
+tree ~/Ejercicio_D/ --noreport | pr -T -s' ' -w 80 --column 4
+nano Punto_D.sh
+chmod +x Punto_D.sh
+git add .
+git commit -m "ADD: Punto_D.sh"
+git push
+mkdir Punto_E
+ls -l
+cd Punto_E/
+touch Filtro_basico.txt
+nano Filtro_basico.txt 
+cd
+cd Recu_TP_AySO/
+cd
+pwd
+lscpu
+cat /proc/cpuinfo
+cd Recu_TP_AySO/
+free -h | grep -iE "memoria|mem" | awk '{print $2}'
+ls
+vagrant halt
+cd 
+su p1c1_2026_u1
+su p1c1_2026_u1
+su p1c1_2026_u1
+su p1c1_2026_u1
+su p1c1_2026_u1
+ls -l
+cd Recu_TP_AySO/
+ls -l
+chmod +x Punto_A.sh
+chmod +x Punto_C.sh
+ls -l
+rm -r Punto_E
+ls -l
+mkdir -p ~/Punto_E
+ls -l
+mkdir Punto_E
+ls -l
+cd Punto_E
+touch Filtro_basico.txt
+ls -l
+free -h
+nano Filtro_basico.txt 
+lscpu
+lscpu | grep -iE "model name|MHz"
+lscpu | grep -iE 'model name|MHz'
+lscpu | grep -iE model name|MHz
+lscpu | grep 'model name|MHz'
+cd
+lscpu | grep -iE "model name|MHz"
+sudo lscpu | grep -iE "model name|MHz"
+cd Recu_TP_AySO/
+lscpu | grep -i "CPU max MHz" | awk '{print $4}'
+lscpu | grep -iE "model name|MHz"
+cd
+lscpu | grep -iE "model name|MHz"
+sudo lscpu | grep -iE "model name|MHz"
+cd
+cd Recu_TP_AySO/
+ls -l
+cd Punto_E/
+ls -l
+rm Filtro_basico.txt 
+ls -l
+free -h | grep -iE "memoria|mem" | awk '{print $2}' > ~/Punto_E/Filtro_basico.txt
+ls -l
+cd
+cd Recu_TP_AySO/
+free -h | grep -iE "memoria|mem" | awk '{print $2}' > ~/Punto_E/Filtro_basico.txt
+cd Punto_E/
+ls -l
+cd ..
+free -h | grep -iE "memoria|mem" | awk '{print $2}' > /Punto_E/Filtro_basico.txt
+free -h | grep -iE "memoria|mem" | awk '{print $2}'  /Punto_E/Filtro_basico.txt
+ls -l
+cd Punto_E
+ls -l
+free -h | grep -iE "memoria|mem" | awk '{print $2}' > ~/Filtro_basico.txt
+ls -l
+ls 
+free -h | grep -iE "memoria|mem" | awk '{print $2}' > /Filtro_basico.txt
+sudo free -h | grep -iE "memoria|mem" | awk '{print $2}' > /Filtro_basico.txt
+ls -l
+touch Filtro_basico.txt
+ls
+free -h
+nano Filtro_basico.txt 
+inxi -c
+cat /proc/cpuinfo/ | grep "model name" | uniq
+cat /proc/cpuinfo | grep "model name" | uniq
+lscpu | grep -i "CPU max MHz" | awk '{printf "%.2fGHz\n", $4/1000}'
+ls -l
+cat /proc/cpuinfo
+cd
+MODELO=$(lscpu | grep -i "model name" | cut -d: -f2 | sed 's/^[ \t]*//') && FREC=$(lscpu | grep -i "CPU max MHz" | awk '{printf "%.2fGHz\n", $4/1000}') && echo "CPU Modelo: $MODELO Frecuencia: $FREC"
+cd Recu_TP_AySO/
+lscpu | grep -iE "model name | MHz"
+lscpu | grep -iE "model name|MHz"
+cd Punto_E
+ls
+nano Filtro_basico.txt 
+nano Punto_E.sh
+ls
+ls -l
+nano Punto_E.sh
+nano Punto_E.sh 
+free -h
+nano Punto_E.sh 
+chmod +x Punto_E.sh
+cd ..
+git add .
+git commit -m "ADD: Filtros Basicos"
+git push
+mkdir Punto_F
+ls -l
+cd Punto_F
+cd ..
+curl -s ifconfig.me
+cd Punto_F
+nano Filtro_Avanzado.txt
+lscpu | grep -iE "model name|MHz"
+nano Filtro_Avanzado.txt
+nano Punto_F.sh
+nano Filtro_Avanzado.txt
+nano Punto_F.sh
+cd ..
+git add .
+git commit -m "ADD: Filtros Avanzados"
+git push
+nano Punto_F.sh
+cd Punto_F
+nano Punto_F.sh
+git push Punto_F.sh
+git status
+git add :
+git add Punto_F.sh 
+git commit -m "ADD: Punto_F.sh"
+git push origin main
+cd ..
+ls -l
+history -a
+cd Recu_TP_AySO/
+history -a
+cd ~/https://github.com/santiagocicchelli-eng/Recu_TP_AySO.git
+cd https://github.com/santiagocicchelli-eng/Recu_TP_AySO.git
+cd ~/santiagocicchelli-eng
+history -a
+ls -l
+$HOME/.bash_history
+sudo $HOME/.bash_history
+cd ..
+$HOME/.bash_history
+sudo $HOME/.bash_history
+$HOME/.bash_history
+$HOME/.bash_history_<Cicchelli>.txt
+history -a
+cd ~/Recu_TP_AySO/
+cp $HOME/.bash_history ./Historial_comandos_<Cicchelli>.txt
